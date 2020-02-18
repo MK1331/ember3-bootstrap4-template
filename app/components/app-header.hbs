@@ -1,0 +1,13 @@
+<nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
+	<div class="navbar-brand-wrapper d-flex align-items-center">
+    <LinkTo @route="index" class="navbar-brand brand-logo">
+      <img src="images/logo.svg" alt="logo">
+    </LinkTo>
+    <LinkTo @route="index" class="navbar-brand brand-logo-mini">
+      <img src="images/logo-mini.svg" alt="logo">
+    </LinkTo>
+	</div>
+	<div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
+    <p class="mb-0 page-name d-none d-lg-block"><FaIcon @icon="user" /> {{@userName}}</p>
+	</div>
+</nav>
